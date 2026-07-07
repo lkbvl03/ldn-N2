@@ -257,17 +257,6 @@ Du-lieu-lam-video/
 
 ---
 
-## API Keys (.env)
-
-```
-WAVESPEED_API_KEY=wsk_live_...   # Tạo ảnh AI (Wavespeed Flux Dev)
-GOOGLE_STUDIO_KEY=AQ....         # Google Studio (dự phòng)
-VBEE_APP_ID=...                  # Vbee App ID
-VBEE_API_KEY=...                 # Vbee API Key (giọng đọc tiếng Việt)
-```
-
----
-
 ## Bảng màu
 
 > Nguồn sự thật duy nhất cho màu sắc & phong cách hình ảnh:
