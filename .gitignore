@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+out/
+
+# API Keys — KHÔNG bao giờ commit
+.env
+.env.local
+
+# Assets được tạo tự động (tái tạo bằng pipeline scripts)
+public/voice.mp3
+public/voice.srt
+public/voice_words.json
+public/background-music.wav
+public/images/
+public/sfx/sfx_*.wav
+public/sfx/sfx-config.json
+
+# Cache
+node_modules/.cache
+.remotion/
+scripts/__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,177 @@
+Bạn là chuyên gia edit video, bạn hãy đọc kỹ và phân tích kỹ thuật tao hiệu ứng kỹ xảo 3d, sau đó bạn hãy tích hợp vào mẫu video styles cho template ( để tôi dùng khi tạo và edit kịch bản video giống như phim )  : 
+—--------------------------------------------------------------------------------------------
+Tạo script Python generate_icon3d_popups.py dùng Playwright xuất 9 file PNG icon 3D popup (nền trong suốt, 900×400px):
+
+1_trophy_burst.png       — Huy hiệu tròn vàng #BA7517, 8 tia sáng xung quanh, icon trophy vàng, label "GIẢI NHẤT"
+2_fire_stat.png          — Card ngang cam #993C1D, icon lửa trái, số "98%" phải, border #D85A30
+3_shield_achievement.png  — Khiên 3 lớp xanh #185FA5→#0C447C→#042C53, clip-path polygon, icon checkmark
+4_rocket_launch.png      — Card xanh lá #1D9E75, icon rocket bay lên, số "3×" serif, trail cong mờ
+5_diamond_rank.png       — Hình vuông xoay 45° tím #534AB7, offset shadow #26215C, icon diamond, 4 hạt sáng
+6_heart_pulse.png        — 3 vòng ripple hồng #D4537E lan ra, icon tim đập, số "12K" bên phải
+7_lightning_speed.png    — Card tím #26215C, icon bolt flicker, số "0.3s" serif, border glow #7F77DD
+8_star_rating.png        — 5 sao vàng #EF9F27 stagger vào, drop-shadow 3D, số "4.9" lớn serif dưới
+9_globe_reach.png        — Địa cầu xanh #1D9E75 vòng quỹ đạo, 3 chấm JS, icon globe xoay, "50+ QUỐC GIA"
+
+Yêu cầu:
+- Tất cả: nền trong suốt, 900×400px (dùng omit_background=True)
+- Màu accent chủ đạo mỗi file: Amber, Coral, Blue, Teal, Purple, Pink, Purple, Amber, Teal
+- Icon: dùng Unicode emoji hoặc SVG path đơn giản cho mỗi loại (trophy🏆 fire🔥 shield✓ rocket🚀 diamond💎 heart❤️ bolt⚡ star⭐ globe🌍)
+- Wait time theo độ phức tạp: file 1,5,9: 1500ms · file 6,8: 1200ms · file còn lại: 1000ms
+- Đóng gói vào icon3d_9popups.zip sau khi hoàn tất
+- In tên file + kích thước sau mỗi file
+
+CHI TIẾT KỸ THUẬT TỪNG HIỆU ỨNG : 
+—--------------------------------------------------------------------------------------------
+1 - Hiệu Ứng : Trophy Icon Burst — huy hiệu vàng rơi xuống.
+Tạo 1_trophy_burst.html + xuất 1_trophy_burst.png (900x400px, nền trong suốt).
+
+Icon 3D Trophy Burst — huy hiệu vàng rơi xuống với vòng sáng:
+- Nền: transparent
+- Vòng ngoài: circle 130px, border 5px solid #EF9F27, background #BA7517, border-radius 50%
+- Glow ring: box-shadow 0 0 0 8px rgba(239,159,39,0.2), 0 0 0 16px rgba(239,159,39,0.08)
+- Icon trong: SVG trophy hoặc dùng Unicode 🏆 font-size 54px căn giữa
+  Màu icon: #FAC775
+- Label dưới: "ví dụ : A..B..", sans-serif 14px bold, màu #EF9F27, letter-spacing 0.15em
+- 8 tia sáng xung quanh vòng (div mỏng 2px × 20px, rotate đều 45°), màu rgba(239,159,39,0.5)
+  Animation tia: scale 0.6↔1.2 + opacity 0.3↔0.9, stagger, infinite alternate
+- Entry animation: translateY(-60px)+scale(0.4)+opacity(0) → translateY(0)+scale(1)+opacity(1)
+  cubic-bezier(0.22,1,0.36,1), 0.8s
+- Xuất PNG transparent sau 1200ms bằng Playwright
+—--------------------------------------------------------------------------------------------
+2 - Hiệu Ứng : Fire Stat Card — icon lửa kèm số liệu.
+Tạo 2_fire_stat.html + xuất 2_fire_stat.png (900x280px, nền trong suốt).
+
+Icon 3D Fire Stat Card — thẻ ngang icon lửa + số liệu lớn:
+- Nền: transparent
+- Card nền: background rgba(153,60,29,0.2), border 2px solid #D85A30, border-radius 16px
+  padding 16px 24px, display flex, align-items center, gap 16px
+  box-shadow: inset 0 1px 0 rgba(240,153,123,0.15)
+- Icon box trái: 70px×70px, border-radius 14px, background #993C1D
+  border 2px solid #D85A30, display flex center
+  Icon: fire/flame SVG hoặc Unicode 🔥, font-size 36px, màu #F0997B
+  Animation icon: scale 0.9↔1.1 + translateY(0↔-3px), 1s ease infinite alternate
+- Số chính phải: "ví dụ : 6…", sans-serif 48px bold, màu #ffffff, line-height 1
+- Label dưới số: "ví dụ : HOAN THÀNH . . . ", 12px, letter-spacing 0.12em, màu rgba(240,153,123,0.8)
+- Entry: translateX(-80px)+opacity(0) → translateX(0)+opacity(1), 0.7s cubic-bezier(0.22,1,0.36,1)
+- Xuất PNG transparent sau 1000ms bằng Playwright
+—--------------------------------------------------------------------------------------------
+3 - Hiệu Ứng : Shield Achievement — khiên xác nhận 3D.
+Tạo 3_shield_achievement.html + xuất 3_shield_achievement.png (900x380px, nền trong suốt).
+
+Icon 3D Shield Achievement — khiên xếp lớp tạo chiều sâu 3D:
+- Nền: transparent
+- Khiên lớp 3 (xa nhất, bóng): clip-path polygon khiên, width 100px height 115px
+  background #042C53, offset xuống phải 6px, opacity 0.6
+- Khiên lớp 2: cùng shape, 106px×122px, background #0C447C
+- Khiên lớp 1 (trên cùng): 112px×130px, background #185FA5
+  border 2px solid #378ADD
+  clip-path: polygon(10% 0%, 90% 0%, 100% 15%, 100% 72%, 50% 100%, 0% 72%, 0% 15%)
+- Icon trong khiên lớp 1: checkmark hoặc shield-check, font-size 44px, màu #85B7EB
+- Label dưới: "ĐÃ KIỂM CHỨNG", 13px bold, màu #85B7EB, letter-spacing 0.1em
+- Entry: scale(0)+rotate(-10deg)+opacity(0) → scale(1)+rotate(0)+opacity(1)
+  cubic-bezier(0.34,1.56,0.64,1), 0.7s
+- Xuất PNG transparent sau 1000ms bằng Playwright
+—--------------------------------------------------------------------------------------------
+4 - Hiệu Ứng : Rocket Launch — tên lửa + tăng trưởng.
+Tạo 4_rocket_launch.html + xuất 4_rocket_launch.png (900x300px, nền trong suốt).
+
+Icon 3D Rocket Launch — thẻ tên lửa kèm số tăng trưởng bay lên:
+- Nền: transparent
+- Card: background rgba(15,110,86,0.18), border 2px solid #1D9E75
+  border-radius 18px, padding 18px 28px, display flex, gap 18px, align-items center
+  box-shadow: 0 0 30px rgba(29,158,117,0.15)
+- Icon rocket trái: font-size 52px, màu #5DCAA5
+  Animation: translateY(0↔-8px) + rotate(0↔5deg), 1.2s ease infinite alternate
+- Số phải: "ví dụ : 3× . . ", Georgia serif 56px bold, màu #ffffff, line-height 1
+- Label dưới số: "Ví dụ : TĂNG TRƯỞNG . . .", 12px, letter-spacing 0.14em, màu #5DCAA5
+- Đường trail rocket: 3 đường cong nhỏ mờ bên trái icon (pseudo-element), màu rgba(93,202,165,0.3)
+- Entry: translateY(50px)+scale(0.7)+opacity(0) → translateY(0)+scale(1)+opacity(1)
+  0.9s cubic-bezier(0.22,1,0.36,1)
+- Xuất PNG transparent sau 1200ms bằng Playwright
+—--------------------------------------------------------------------------------------------
+5 - Hiệu Ứng : Diamond Rank — kim cương xoay nổi.
+Tạo 5_diamond_rank.html + xuất 5_diamond_rank.png (900x380px, nền trong suốt).
+
+Icon 3D Diamond Rank — hình kim cương xoay nhẹ với hiệu ứng float:
+- Nền: transparent
+- Hình kim cương: div 90px×90px, background #534AB7, border 3px solid #7F77DD
+  transform: rotate(45deg), border-radius 10px
+  box-shadow: 6px 6px 0 #26215C, 8px 8px 0 rgba(127,119,221,0.3)
+- Icon trong (counter-rotate -45deg để đứng thẳng): diamond icon, font-size 36px, màu #CECBF6
+- 4 hạt sáng nhỏ quanh kim cương: div tròn 5px màu #7F77DD
+  đặt tại 4 góc cách 20px, animation pulse opacity 0.3↔1, stagger delay
+- Label: "ví dụ : DIAMOND TIER . . .", 13px bold, màu #AFA9EC, letter-spacing 0.1em, margin-top 16px
+- Animation float: translateY(0↔-8px) + perspective(300px) rotateY(0↔8deg)
+  2s ease infinite alternate
+- Entry: scale(0)+rotate(45deg→0)+opacity(0) → scale(1)+opacity(1), 0.8s ease
+- Xuất PNG transparent sau 1500ms (để bắt frame float đẹp) bằng Playwright
+—--------------------------------------------------------------------------------------------
+6 - Hiệu Ứng : Heart Pulse — trái tim đập kèm lượt yêu thích.
+Tạo 6_heart_pulse.html + xuất 6_heart_pulse.png (900x280px, nền trong suốt).
+
+Icon 3D Heart Pulse — trái tim đập với ripple lan ra:
+- Nền: transparent
+- 3 vòng ripple: circle 60/80/100px, border 1.5px solid rgba(212,83,126,X) opacity giảm dần
+  animation: scale(1→1.8) + opacity(0.6→0), stagger delay 0.4s, 1.5s ease infinite
+- Icon trái tim: font-size 58px, màu #D4537E, position center over ripple
+  Animation pulse: scale(1→1.15→1), 0.8s ease infinite (nhịp tim)
+- Số bên phải icon: "ví` dụ : 12K. . . .", sans-serif 42px bold, màu #ffffff
+- Label: "ví dụ : LƯỢT YÊU THÍCH . . .", 11px, letter-spacing 0.12em, màu rgba(237,147,177,0.7)
+- Toàn bộ group: display flex, align-items center, gap 18px
+- Entry: scale(0)+opacity(0) → scale(1)+opacity(1), cubic-bezier(0.34,1.56,0.64,1), 0.5s
+- Xuất PNG transparent sau 1000ms bằng Playwright
+—--------------------------------------------------------------------------------------------
+7 - Hiệu Ứng : Lightning Speed — sét tím kèm chỉ số tốc độ.
+Tạo 7_lightning_speed.html + xuất 7_lightning_speed.png (900x280px, nền trong suốt).
+
+Icon 3D Lightning Speed — sét tím nghiêng, thẻ phát sáng:
+- Nền: transparent
+- Card: background #26215C, border 2px solid #7F77DD, border-radius 14px
+  padding 16px 22px, display flex, gap 14px, align-items center
+  box-shadow: 0 0 0 4px rgba(127,119,221,0.15), 0 0 0 8px rgba(127,119,221,0.06)
+- Icon bolt trái: font-size 50px, màu #7F77DD
+  Animation: scaleX(0.9↔1.1) + skewX(-5↔5deg), 0.4s ease infinite alternate (flicker)
+- Số phải: "ví dụ : 0.3s . . .", Georgia serif 44px bold, màu #ffffff, line-height 1
+- Label: "ví dụ : TỐC ĐỘ PHẢN HỒI . . .", 11px, letter-spacing 0.12em, màu #AFA9EC
+- 3 đường ngang mờ sau card (pseudo-element, màu rgba(127,119,221,0.1)), motion blur effect
+- Entry: skewX(-8deg)+scale(0.85)+opacity(0) → skewX(0)+scale(1)+opacity(1)
+  0.6s cubic-bezier(0.22,1,0.36,1)
+- Xuất PNG transparent sau 800ms bằng Playwright
+—--------------------------------------------------------------------------------------------
+8 - Hiệu Ứng : Star Rating — 5 sao vàng xoay vào.
+Tạo 8_star_rating.html + xuất 8_star_rating.png (900x320px, nền trong suốt).
+
+Icon 3D Star Rating — 5 ngôi sao vàng xuất hiện stagger + điểm lớn:
+- Nền: transparent
+- 5 ngôi sao SVG polygon, size 36px mỗi sao, màu #EF9F27
+  border 2px solid #BA7517 (dùng stroke)
+  box-shadow mỗi sao: drop-shadow(0 3px 0 #633806) tạo hiệu ứng 3D nổi
+  Animation stagger: sao 1→5 xuất hiện tuần tự, mỗi sao delay 0.1s
+  Mỗi sao: scale(0)+rotate(-30deg) → scale(1)+rotate(0), 0.4s cubic-bezier(0.34,1.56,0.64,1)
+- Số điểm lớn dưới: "ví dụ : 4.9 . . .", Georgia serif 60px bold, màu #ffffff, line-height 1
+  text-shadow: 3px 3px 0 rgba(186,117,23,0.6)
+- Label: "ví dụ : ĐÁNH GIÁ TRUNG BÌNH . . .", 12px, letter-spacing 0.12em, màu rgba(250,199,117,0.6)
+- Số reviews nhỏ: "(2.341 đánh giá)", 11px, màu rgba(255,255,255,0.35)
+- Xuất PNG transparent sau 1200ms (đủ để stagger xong) bằng Playwright
+—--------------------------------------------------------------------------------------------
+9 - Hiệu Ứng : Globe Reach — địa cầu xanh phạm vi toàn cầu.
+Tạo 9_globe_reach.html + xuất 9_globe_reach.png (900x380px, nền trong suốt).
+
+Icon 3D Globe Reach — địa cầu xoay nhẹ với vòng quỹ đạo + số liệu:
+- Nền: transparent
+- Vòng quỹ đạo ngoài 1: circle 140px, border 1px solid rgba(29,158,117,0.25)
+  animation: rotateY 360deg, 6s linear infinite
+- Vòng quỹ đạo 2 (nghiêng): circle 110px, border 1px solid rgba(29,158,117,0.15)
+  transform: rotateX(60deg), animation cùng hướng
+- Globe chính: circle 90px, background rgba(29,158,117,0.15)
+  border 3px solid #1D9E75
+  box-shadow: 0 0 0 6px rgba(29,158,117,0.1), 0 0 0 12px rgba(29,158,117,0.05)
+- Icon globe trong: font-size 44px, màu #5DCAA5
+  animation: rotateY 8s linear infinite (xoay chậm)
+- 3 chấm nhỏ trên vòng quỹ đạo (vị trí 0°, 120°, 240°): circle 6px màu #1D9E75
+  di chuyển theo đường tròn bằng JS animation
+- Label dưới: "ví dụ : 50+ QUỐC GIA . . .", 14px bold, màu #9FE1CB, letter-spacing 0.1em
+- Sub: "ví dụ : phạm vi hoạt động . . .", 11px, màu rgba(255,255,255,0.35)
+- Entry: rotateY(-20deg)+scale(0.7)+opacity(0) → rotateY(0)+scale(1)+opacity(1), 0.9s ease
+- Xuất PNG transparent sau 1500ms bằng Playwright
+

@@ -1,0 +1,139 @@
+================================================================
+BỔ SUNG HỒ SƠ GIỌNG ĐỌC — KÊNH LẠ ĐỜI NHẤT (LDN)
+Chủ đề: HOOK — NỘI DUNG CHÍNH — KẾT VIDEO (bản nâng retention)
+================================================================
+Áp dụng cùng với: cau-truc-ct-viet-kb.txt (mục 2, 3, 6)
+Nguyên tắc cốt lõi: KHÔNG chào trước khi gây tò mò. Lời chào ("A lô, bạn
+thân mến của tôi") chỉ xuất hiện SAU khi đã có 1-2 câu hook thật sự
+cuốn người xem ở lại.
+
+----------------------------------------------------------------
+1. CẤU TRÚC HOOK CHUẨN (3 LỚP)
+----------------------------------------------------------------
+
+Thứ tự bắt buộc:
+  Lớp 1 — Câu mở "giật" (1 câu, tối đa 12 từ)
+  Lớp 2 — Câu khoét sâu tò mò / đẩy mâu thuẫn (1-2 câu)
+  Lớp 3 — Lời chào quen thuộc của kênh ("A lô, bạn thân mến của tôi")
+  → Sau lớp 3 mới [DỪNG AS] rồi vào nội dung.
+
+KHÔNG bao giờ mở đầu bằng:
+  "A lô, bạn thân mến của tôi" ngay câu đầu tiên — vì nghe như chào
+  một cách máy móc, khán giả lướt trước khi kịp tò mò.
+
+7 KIỂU MỞ LỚP 1 — xoay vòng, không lặp lại 2 video liên tiếp:
+
+  (1) Câu hỏi xoáy vào nỗi đau quen thuộc
+      "Ủa sao mười một giờ đêm rồi mà tay vẫn cứ lướt điện thoại."
+
+  (2) Số liệu/sự thật gây sốc nhẹ
+      "Não bộ của bạn ra quyết định mua hàng trong nửa giây."
+
+  (3) Tình huống "ai cũng từng" kể như đang xảy ra
+      "Bạn vừa định tắt app, rồi tay lại bấm vào y như cũ."
+
+  (4) Câu nói ngược (đảo kỳ vọng)
+      "Không phải bạn yếu đuối. Là não bạn bị gài từ đầu."
+
+  (5) Lời thú nhận cá nhân giả định
+      "Có một thói quen tôi giấu hoài, ai cũng có, mà ít ai chịu nhận."
+
+  (6) Cảnh báo nhẹ kiểu bạn thân
+      "Cái này nghe xong bạn sẽ thấy ghét cái điện thoại của mình hơn
+      một chút, nhưng phải nói."
+
+  (7) Mở bằng âm thanh/hình ảnh cụ thể (giúp dựng scene rõ)
+      "Tiếng thông báo kêu lên. Chỉ một tiếng vậy thôi, mà bạn đã
+      buông hết mọi thứ để cầm điện thoại lên."
+
+QUY TẮC LỚP 2 (khoét tò mò):
+  - Đặt câu hỏi mà khán giả TỰ HỎI mình, không hỏi suông.
+  - Gợi hậu quả/cái giá phải trả nếu không hiểu vấn đề này.
+  - Không tiết lộ đáp án — chỉ mở vết nứt.
+  Ví dụ: "Và hôm nay mình sẽ nói thiệt, vì sao chuyện này không phải
+  lỗi của bạn."
+
+----------------------------------------------------------------
+2. NGUYÊN TẮC VIẾT NỘI DUNG CHÍNH (giữ chân, không lan man)
+----------------------------------------------------------------
+
+QUY TẮC "MỘT Ý — MỘT NHỊP":
+  - Mỗi luận điểm chỉ nói ĐÚNG 1 ý chính, không vòng vo giải thích lại.
+  - Câu dẫn vào ví dụ phải cụ thể (tên tình huống, thời điểm, cảm giác),
+    tránh nói chung như "nhiều người thường".
+
+CÔNG THỨC 5 NHỊP / LUẬN ĐIỂM (rút gọn từ mục 6, thêm nhịp cảm xúc):
+  Nhịp 1 — Gọi tên luận điểm bằng ngôn ngữ đời thường trước, label khoa
+           học nói sau (không nói "Bước 1: Dopamine" trước, mà kể tình
+           huống rồi mới gọi tên).
+  Nhịp 2 — Ví dụ thật, có chi tiết nhỏ (con số, hành động, câu nói).
+  Nhịp 3 — Giải thích khoa học bằng 1 câu ví dụ hình ảnh (không thuật ngữ
+           khô), ví dụ: "não bạn lúc đó giống y như đứa nhỏ thấy kẹo".
+  Nhịp 4 — Quay lại hỏi khán giả, kéo họ vào ("bạn có từng vậy chưa").
+  Nhịp 5 — Câu bridge ngắn, gài tò mò cho luận điểm kế (không nói hết ý,
+           chỉ mở hé).
+
+PATTERN INTERRUPT (chống tuột người xem giữa video):
+  - Cứ sau 45-60 giây nội dung chính → chèn 1 pattern interrupt.
+  - Dạng: câu hỏi bất ngờ, đổi tông giọng (nhanh hơn 1 nhịp), hoặc 1 câu
+    đùa miền Nam ngắn ("ủa chứ bạn nghĩ sao").
+  - Không lặp lại cùng 1 dạng pattern interrupt 2 lần trong 1 video.
+
+CHỐNG LAN MAN — checklist tự kiểm trước khi chốt script:
+  [ ] Có câu nào lặp lại ý đã nói chỗ khác không? → cắt.
+  [ ] Có đoạn nào giải thích khoa học quá 3 câu liên tục không? → cắt
+      bớt, chuyển sang ví dụ.
+  [ ] Mỗi luận điểm có đúng 1 bridge, không có đoạn "chữa cháy" dài dòng?
+  [ ] Câu nào không phục vụ cảm xúc (tò mò / đồng cảm / bất ngờ) → bỏ.
+
+
+----------------------------------------------------------------
+3. CẤU TRÚC KẾT VIDEO (giữ ấm, tránh sáo rỗng)
+----------------------------------------------------------------
+
+THỨ TỰ 4 LỚP (khác bản gốc ở chỗ thêm lớp "đúc kết cá nhân hoá"):
+
+  Lớp 1 — Tóm lại vấn đề bằng 1 câu CÔ ĐỌNG (không liệt kê lại từng bước).
+          Ví dụ: "Vậy là não bạn không hư, nó chỉ đang làm đúng việc của
+          nó — vấn đề là mình phải biết để mà né."
+
+  Lớp 2 — Đúc kết cảm xúc, không giảng đạo.
+          "Không phải để trách bản thân. Mà để hiểu mình hơn một chút."
+
+  Lớp 3 — [DỪNG AS] → câu dấu ấn kênh
+          "Mãi là bạn bè nhé. không say không về nha."
+          + "hi hi" / "he he"
+
+  Lớp 4 — CTA tình cảm, CHỌN 1 (xoay vòng, không dùng cùng câu 2 video
+          liên tiếp):
+          "nhớ bấm chuông để tôi biết bạn vẫn còn ngồi xem video nhé."
+          "nếu bài này có ích, chia sẻ cho một người bạn của bạn nha."
+          "gặp lại bạn ở video tiếp theo, chúc bạn luôn vui tươi hạnh phúc."
+
+TRÁNH:
+  - Kết bằng câu hỏi mở không có câu trả lời ngầm (gây hụt hẫng).
+  - Lặp nguyên văn câu hook mở đầu (làm được nhưng phải biến hoá khác đi
+    một chút để có cảm giác "đi một vòng rồi về").
+
+----------------------------------------------------------------
+4. VÍ DỤ MẪU ÁP DỤNG (minh hoạ trọn cụm Hook → Chào)
+----------------------------------------------------------------
+
+  Ủa sao mười một giờ đêm rồi mà tay vẫn cứ lướt điện thoại.
+
+  [DỪNG 1s]
+
+  Không phải tự nhiên đâu. Có một thứ trong đầu bạn đang điều khiển
+  chuyện này, mà ít ai chịu để ý.
+
+  [DỪNG 2s]
+
+  A lô. bạn thân mến của tôi.
+
+  [DỪNG AS]
+
+  ...(tiếp tục nội dung chính theo mục 6 và phần 2 ở trên)
+
+================================================================
+KẾT THÚC PHẦN BỔ SUNG
+================================================================

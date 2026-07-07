@@ -1,0 +1,309 @@
+════════════════════════════════════════════════════════════════
+  HỒ SƠ THƯƠNG HIỆU — KÊNH YOUTUBE
+  LẠ ĐỜI NHẤT
+  Phiên bản 1.0 — 2026
+════════════════════════════════════════════════════════════════
+
+
+────────────────────────────────────────────────────────────────
+I. ĐỊNH VỊ KÊNH
+────────────────────────────────────────────────────────────────
+
+Tên kênh       : LẠ ĐỜI NHẤT
+Handle         : @ladoinhat
+
+Định vị        :
+  "Kênh giải mã những gì thật sự xảy ra — bên trong tư tưởng
+  con người, bên trong tín ngưỡng phong thủy tâm linh, và bên
+  trong thế giới tự nhiên — bằng dữ liệu, thống kê và phản ứng
+  dây chuyền theo thời gian."
+
+Tagline        :
+  "Bạn tin vì bạn cảm nhận được.
+   Chúng tôi giải thích tại sao — bằng khoa học."
+
+Triết lý nội dung :
+  Không phán xét. Không cảm tính. Không giật gân.
+  Chỉ có dữ liệu — và dữ liệu đôi khi còn kỳ lạ hơn
+  bất kỳ câu chuyện nào.
+
+
+────────────────────────────────────────────────────────────────
+II. HAI TRỤ CỘT NỘI DUNG
+────────────────────────────────────────────────────────────────
+
+TRỤ CỘT 1 — TƯ TƯỞNG & HÀNH VI
+  Giải thích hành vi con người: tại sao con người nghĩ và làm
+  những điều họ không tự hiểu được. Tiếp cận bằng khoa học
+  hành vi, tâm lý học ứng dụng, thống kê và thí nghiệm đã
+  được kiểm chứng.
+
+  Màu đại diện  : Signal Red  #FF3B30
+  Chủ đề mẫu   :
+    - Tại sao con người đưa ra quyết định vô thức
+    - Cơ chế tâm lý đằng sau niềm tin tập thể
+    - Phản ứng dây chuyền từ một hành vi cá nhân
+
+TRỤ CỘT 2 — THIÊN NHIÊN & KHOA HỌC
+  Sự thật thú vị về con người và điều gì xảy ra khi những điều
+  kỳ lạ có thật diễn ra ngay lúc này. Khám phá bằng dữ liệu,
+  không phải cảm xúc.
+
+  Màu đại diện  : Nature Green  #30D158
+  Chủ đề mẫu   :
+    - Hiện tượng tự nhiên kỳ lạ được khoa học giải thích
+    - Phản ứng dây chuyền trong hệ sinh thái
+    - Sự thật về cơ thể người mà bạn chưa từng nghe
+
+
+────────────────────────────────────────────────────────────────
+III. BẢNG MÀU THƯƠNG HIỆU
+────────────────────────────────────────────────────────────────
+
+  Mỗi màu có vai trò riêng — không hoán đổi tùy tiện.
+
+  ┌─────────────────┬────────────┬─────────────────────────────────────────┐
+  │ Tên màu         │ Mã hex     │ Vai trò                                 │
+  ├─────────────────┼────────────┼─────────────────────────────────────────┤
+  │ Obsidian        │ #0A0A0F    │ Màu nền chính — thumbnail & intro video │
+  │ Signal Red      │ #FF3B30    │ Màu nhấn chủ lực — tiêu đề, CTA, logo  │
+  │ Data Yellow     │ #FFD60A    │ Màu nhấn phụ — số liệu, thống kê       │
+  │ Ivory White     │ #F5F5F0    │ Màu chữ chính trên nền tối              │
+  │ Mind Purple     │ #BF5AF2    │ Màu trụ cột tâm linh & tư tưởng        │
+  │ Nature Green    │ #30D158    │ Màu trụ cột thiên nhiên & khoa học      │
+  │ Deep Gray       │ #1C1C1E    │ Màu nền phụ — background thứ cấp       │
+  │ Muted White     │ #8E8E93    │ Màu chữ phụ — caption, chú thích       │
+  └─────────────────┴────────────┴─────────────────────────────────────────┘
+
+  QUY TẮC SỬ DỤNG MÀU:
+  - Mỗi thumbnail chỉ dùng TỐI ĐA 2 màu (nền + 1 màu nhấn)
+  - Nền Obsidian chiếm tối thiểu 60% diện tích thumbnail
+  - Màu nhấn theo trụ cột:
+      Đỏ   → video tâm lý & hành vi
+      Vàng → video dữ liệu & thống kê
+      Tím  → video tâm linh & tư tưởng
+      Xanh → video thiên nhiên & khoa học
+
+
+────────────────────────────────────────────────────────────────
+IV. HỆ THỐNG FONT CHỮ
+────────────────────────────────────────────────────────────────
+
+  FONT CHÍNH (Tiêu đề, thumbnail, logo)
+  ───────────────────────────────────────
+  Tên font     : Be Vietnam Pro
+  Nguồn        : Google Fonts (miễn phí)
+  Link         : fonts.google.com/specimen/Be+Vietnam+Pro
+  Trọng lượng  : Bold 700, ExtraBold 800, Black 900
+  Dùng cho     : Tiêu đề thumbnail, tên kênh, end screen,
+                 intro video, lower third
+
+  FONT PHỤ (Nội dung, mô tả)
+  ────────────────────────────
+  Tên font     : Nunito
+  Nguồn        : Google Fonts (miễn phí)
+  Link         : fonts.google.com/specimen/Nunito
+  Trọng lượng  : Regular 400, SemiBold 600
+  Dùng cho     : Mô tả video, caption, chú thích, lower third
+                 nội dung, slide giải thích trong video
+
+  FONT DỮ LIỆU (Số liệu, thống kê)
+  ───────────────────────────────────
+  Tên font     : JetBrains Mono
+  Nguồn        : Google Fonts (miễn phí)
+  Link         : fonts.google.com/specimen/JetBrains+Mono
+  Trọng lượng  : Regular 400, Bold 700
+  Dùng cho     : Số liệu, phần trăm, thống kê hiển thị trong
+                 video (87.4%, 1 triệu, 3 giây...)
+
+  THANG CỠ CHỮ THUMBNAIL:
+  ───────────────────────────────────────
+  H1  52–64px  Black 900   → Tiêu đề chính thumbnail
+  H2  28–36px  Bold 700    → Phụ đề / câu hỏi phụ
+  H3  18–22px  SemiBold 600→ Câu dẫn, context
+  Cap 14–16px  Regular 400 → Caption, chú thích nhỏ
+  Bdg 11–12px  Bold 700    → Badge phân loại chủ đề
+
+
+────────────────────────────────────────────────────────────────
+V. CẤU TRÚC THUMBNAIL CHUẨN
+────────────────────────────────────────────────────────────────
+
+  KÍCH THƯỚC CHUẨN : 1280 x 720px (tỉ lệ 16:9)
+  ĐỊNH DẠNG        : JPG (chất lượng 85–95%) hoặc PNG
+  DUNG LƯỢNG       : Tối đa 2MB
+
+  BỐ CỤC THUMBNAIL:
+  ┌──────────────────────────────────────────────┬──┐
+  │                                              │  │
+  │  [BADGE]                                     │  │
+  │  TÂM LÝ HỌC                                 │  │
+  │                                              │  │
+  │                                              │C │
+  │     TIÊU ĐỀ LỚN                             │Ạ │
+  │     BOLD 900                                 │N │
+  │     (tối đa 6–8 từ)                         │H │
+  │                                              │  │
+  │     Phụ đề nhỏ hơn                          │M │
+  │     (số liệu / câu hỏi)                     │À │
+  │                                              │U │
+  └──────────────────────────────────────────────┴──┘
+     Dải màu 6px ở cạnh phải — nhận diện kênh
+
+  5 YẾU TỐ BẮT BUỘC:
+  1. Nền tối Obsidian #0A0A0F
+  2. Tiêu đề Bold ≥ 52px, tối đa 8 từ
+  3. Badge phân loại góc trên trái (nhỏ, rõ)
+  4. Dải màu nhận diện kênh 6px cạnh phải
+  5. Một điểm nhấn màu đơn (đỏ / vàng / tím / xanh)
+
+  CÔNG THỨC TIÊU ĐỀ THUMBNAIL HIỆU QUẢ:
+  - [Con số] + [Hành động] + [Đối tượng]
+    Ví dụ: "87% quyết định xảy ra vô thức"
+  - Tại sao [Hành vi kỳ lạ]?
+    Ví dụ: "Tại sao bạn không thể dừng lại?"
+  - [Điều kỳ lạ] có thật đang xảy ra
+    Ví dụ: "Điều khoa học vừa tìm ra"
+
+
+────────────────────────────────────────────────────────────────
+VI. NHẬN DIỆN KÊNH (CHANNEL ART)
+────────────────────────────────────────────────────────────────
+
+  BANNER KÊNH
+  Kích thước   : 2560 x 1440px (safe zone: 1546 x 423px)
+  Màu nền      : Obsidian #0A0A0F
+  Nội dung     :
+    - Tên kênh "LẠ ĐỜI NHẤT" cỡ lớn, màu Ivory White
+    - Tagline phía dưới, màu Muted White
+    - Dải màu trang trí mỏng từ Signal Red → Mind Purple
+    - Lịch đăng bài (nếu có)
+
+  AVATAR KÊNH
+  Kích thước   : 800 x 800px (hiển thị tròn)
+  Thiết kế     :
+    - Nền Obsidian #0A0A0F
+    - Dấu "?" cách điệu màu Signal Red — biểu tượng
+      cho sự tò mò và bí ẩn của kênh
+    - Chữ "LĐN" nhỏ phía dưới màu Ivory White
+    - Đường viền tròn Signal Red #FF3B30
+
+  WATERMARK VIDEO
+  Vị trí       : Góc dưới phải
+  Kích thước   : 150 x 150px
+  Thiết kế     : Avatar kênh nền trong suốt 70%
+
+
+────────────────────────────────────────────────────────────────
+VII. GIỌNG ĐIỆU & PHONG CÁCH NỘI DUNG
+────────────────────────────────────────────────────────────────
+
+  GIỌNG ĐIỆU KÊNH:
+  - Tò mò, không phán xét
+  - Tự tin nhưng không kiêu ngạo
+  - Phân tích lạnh — cảm xúc ấm
+  - Nói chuyện với khán giả như người bạn thông minh
+
+  KHÔNG BAO GIỜ:
+  - Phán xét hay chỉ trích cá nhân, tổ chức
+  - Đưa ra kết luận khi chưa có dữ liệu
+  - Dùng tiêu đề clickbait không có nội dung hỗ trợ
+  - Cảm tính hóa vấn đề khoa học
+
+  LUÔN LUÔN:
+  - Dẫn nguồn dữ liệu, thống kê cụ thể
+  - Kết thúc bằng câu hỏi mở cho khán giả
+  - Liên kết hiện tượng với phản ứng dây chuyền
+  - Giải thích "tại sao" chứ không chỉ "cái gì"
+
+  CẤU TRÚC VIDEO CHUẨN:
+  1. Hook (0–15 giây)    → Câu hỏi / sự kiện gây tò mò
+  2. Dữ liệu (15–60 giây)→ Con số cụ thể thiết lập vấn đề
+  3. Phân tích (phần lớn)→ Giải mã cơ chế bằng khoa học
+  4. Dây chuyền          → Điều này dẫn đến điều gì?
+  5. Kết luận            → Sự thật — và câu hỏi tiếp theo
+
+
+────────────────────────────────────────────────────────────────
+VIII. HỆ THỐNG PLAYLIST
+────────────────────────────────────────────────────────────────
+
+  1. Lạ Đời Nhất — Những Video Hay Nhất      [Tổng hợp]
+  2. Tư Tưởng & Hành Vi — Tại Sao Bạn Làm Vậy?  [Trụ cột 1]
+  3. Phản Ứng Dây Chuyền — Thống Kê Có Thật  [Trụ cột 2]
+  4. Thiên Nhiên & Khoa Học — Điều Kỳ Lạ Có Thật [Trụ cột 3]
+  5. Shorts · Tâm Lý Trong 60 Giây           [Shorts T.cột 1]
+  6. Shorts · Khoa Học Kỳ Lạ Trong 60 Giây  [Shorts T.cột 3]
+
+
+────────────────────────────────────────────────────────────────
+IX. TỪ KHÓA SEO CHỦ LỰC
+────────────────────────────────────────────────────────────────
+
+  NHÓM TÂM LÝ HỌC:
+  khoa học hành vi · tâm lý học ứng dụng · tâm lý học
+  giải mã tâm lý · psychology · psychologyfacts
+  sự thật tâm lý học · tâm lý · giải thích hành vi con người
+
+  NHÓM KHÁM PHÁ:
+  khám phá · sự thật thú vị · điều kỳ lạ có thật
+  khoa học thú vị · thiên nhiên kỳ lạ · điều gì xảy ra khi
+
+  NHÓM DỮ LIỆU:
+  phản ứng dây chuyền · thống kê xã hội · dữ liệu thực
+  thống kê hành vi · phân tích dữ liệu · chuỗi nguyên nhân
+
+  HASHTAG KÊNH:
+  #ladoinhat (bắt buộc trong mọi video)
+
+  HASHTAG THEO TRỤ CỘT:
+  Trụ cột 1: #tamly #khoahochanvi #giaima #psychology
+  Trụ cột 2: #phanungdaychuyen #thongke #dulieu
+  Trụ cột 3: #thiennhien #khampha #khoahoc #suthatthuvi
+
+
+────────────────────────────────────────────────────────────────
+X. QUY TẮC THIẾT KẾ — NÊN & KHÔNG NÊN
+────────────────────────────────────────────────────────────────
+
+  NÊN LÀM                        KHÔNG NÊN
+  ──────────────────────────────────────────────────────────────
+  Nền tối + chữ sáng tương phản  Nền trắng hoặc màu pastel
+  Có số liệu cụ thể trong tiêu đề  Tiêu đề chung chung, mơ hồ
+  Font Bold 700–900 cho tiêu đề  Font mảnh, chữ thường
+  Tối đa 2 màu trên 1 thumbnail  Quá nhiều màu gây rối mắt
+  Badge phân loại trụ cột kênh   Không có dấu hiệu nhận diện
+  Đọc được ở kích thước 80px     Chữ quá nhỏ, chi tiết rườm rà
+  1 thông điệp rõ ràng mỗi video  Nhiều chủ đề trong 1 video
+  Dẫn nguồn dữ liệu cụ thể       Số liệu không có nguồn
+  Kết thúc bằng câu hỏi mở       Kết luận cứng nhắc, áp đặt
+  Màu theo đúng trụ cột nội dung  Màu ngẫu nhiên không nhất quán
+
+
+────────────────────────────────────────────────────────────────
+XI. TỔNG KẾT — BẢN SẮC THƯƠNG HIỆU
+────────────────────────────────────────────────────────────────
+
+  LẠ ĐỜI NHẤT là kênh duy nhất tại Việt Nam kết hợp:
+
+    DỮ LIỆU + TÂM LÝ HỌC + PHẢN ỨNG DÂY CHUYỀN
+
+  Không phải kênh cảm xúc.
+  Không phải kênh hàn lâm.
+  Là kênh giải thích — bằng bằng chứng.
+
+  Mọi video đều trả lời câu hỏi:
+  "Tại sao điều này xảy ra — và nó dẫn đến điều gì tiếp theo?"
+
+  ─────────────────────────────────────────────────────────────
+  "Bạn tin vì bạn cảm nhận được.
+   Chúng tôi giải thích tại sao — bằng khoa học."
+  ─────────────────────────────────────────────────────────────
+
+
+════════════════════════════════════════════════════════════════
+  Kênh: LẠ ĐỜI NHẤT · @ladoinhat
+  Tài liệu nội bộ — Phiên bản 1.0 · 2026
+  Cập nhật định kỳ theo chiến lược phát triển kênh
+════════════════════════════════════════════════════════════════
+
