@@ -26,9 +26,8 @@ chờ đủ tài nguyên → tạo âm thanh → dựng video → chờ xác nh�
 Không nhảy cóc bước nào, không tự ý render khi chưa qua đủ 2 lần xác nhận.
 
 1. **Nhận chủ đề, viết kịch bản** — Claude nhận chủ đề từ người dùng, viết
-   **toàn bộ kịch bản giọng đọc** (văn xuôi liền mạch, đúng quy tắc
-   `Du-lieu-lam-video/ho-so-giong-doc-LDN.txt` + `Du-lieu-lam-video/cau-truc-ct-viet-kb-ldn.txt`
-   — hook 3 lớp, công thức 5 nhịp/luận điểm, kết 4 lớp, marker `[DỪNG Xs]`).
+   **toàn bộ kịch bản giọng đọc** (văn xuôi liền mạch — hook 3 lớp, công thức
+   5 nhịp/luận điểm, kết 4 lớp, marker `[DỪNG Xs]`).
    **CHƯA chia scene, CHƯA viết imagePrompt, CHƯA đụng vào `src/data.ts`.**
 
 2. **Dừng lại, chờ xác nhận kịch bản** — gửi kịch bản cho người dùng đọc
@@ -247,10 +246,8 @@ public/
 
 Du-lieu-lam-video/
   thuong-hieu-LDN.txt              ← hồ sơ thương hiệu (màu, style ảnh) — KHÔNG xoá
-  ho-so-giong-doc-LDN.txt          ← quy tắc viết kịch bản giọng đọc — KHÔNG xoá
   ho-so-cac-mau-hieu-ung-text.txt  ← hồ sơ hiệu ứng text — KHÔNG xoá
   ho-so-cac-mau-hieu-ung-icon-3d.txt ← hồ sơ hiệu ứng icon 3D — KHÔNG xoá
-  cau-truc-ct-viet-kb-ldn.txt      ← cấu trúc kịch bản chuẩn kênh — KHÔNG xoá
   gioi-thieu-template.txt         ← tổng quan template & tiêu chuẩn kỹ thuật — KHÔNG xoá
   veo3_prompts.txt                 ← sinh bởi gen_veo3_prompts.py (xoá được, tạo lại mỗi video)
 ```
